@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio - Amanda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- menu de navegação -->
+    <nav>
+        <a href="#sobre">Sobre mim</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- seção sobre mim -->
+    <section id="sobre">
+        <h1>Sobre mim</h1>
+        <p>Oi, meu nome é Amanda. Estou começando na área de tecnologia e aprendendo programação web.</p>
+        <p>Gosto de aprender coisas novas e no meu tempo livre costumo assistir séries, sair para passear e usar redes sociais.</p>
+    </section>
+
+    <!-- seção formação -->
+    <section id="formacao">
+	<h1>Formação</h1>
+	<p>Ensino médio completo.</p>
+	<p>Ensino superior completo em Letras.</p>
+	<p>Atualmente cursando Análise e Desenvolvimento de Sistemas.</p>
+	<p>Inglês básico.</p>
+    </section>
+
+    <!-- seção portfólio -->
+    <section id="portfolio">
+        <h1>Portfólio</h1>
+        <ul>
+            <li>Atividade da disciplina Fundamentos da Programação Web</li>
+            <li>Exercícios e prática em HTML, CSS e JavaScript</li>
+        </ul>
+    </section>
+
+    <!-- seção contato -->
+    <section id="contato">
+        <h1>Contato</h1>
+        <form id="formContato">
+            <input type="text" id="nome" placeholder="Seu nome" required><br>
+            <input type="email" id="email" placeholder="Seu email" required><br>
+            <textarea id="mensagem" placeholder="Digite sua mensagem" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
